@@ -73,7 +73,6 @@ app.use((error, req, res, next) => {
 // ********************************** mongoose db connection and server initialization **********************************************
 mongoose
   .connect(
-    `mongodb+srv://nyars16:ZWeoQDHvuKlY8r3N@cluster0.ugvobps.mongodb.net/mern3?retryWrites=true&w=majority`
     )
   .then(() => {
     app.listen(5000);
