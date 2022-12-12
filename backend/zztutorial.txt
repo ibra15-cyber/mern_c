@@ -1,0 +1,13 @@
+you have a list of object?
+to create another use push to put it
+to update, make a copy, use id to get what you want
+destructure what you want and edit it
+finally assign the edidted list to the prev object
+
+to delete you filter all item except the one you need
+
+.push
+.findIndex to find item 
+make a copy of the time using spread op {...}
+get the items you want to change and change them
+call the original list[idenx] = update
